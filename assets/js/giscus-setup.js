@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "ColtonKawamura/coltonkawamura",
+    "data-repo": "ColtonKawamura/coltonkawamura.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
