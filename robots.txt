@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://coltonkawamura.github.io/coltonkawamura/sitemap.xml
+Sitemap: https://coltonkawamura.github.io/sitemap.xml
