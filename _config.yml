@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Colton
 middle_name: A.
 last_name: Kawamura
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you!
+contact_note: # You can even add a little note about which of these is the best way to reach you!
 description:  # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
