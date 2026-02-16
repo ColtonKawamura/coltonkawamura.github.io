@@ -29,4 +29,4 @@ latest_posts:
 
 I'm the father of three young kids that don't sleep and proud husband of a wonderful wife.
 
-In my spare time, I'm an engineer in the defense industry and PhD candidate at the University of Amsterdam. My engineering work focuses on software that integrates into test and evaluations systems. My academic work focuses on computational condensed matter physics.
+In my spare time, I'm an engineer and PhD candidate. My engineering work focuses on software that integrates into test and evaluations systems. My academic work focuses on computational soft condensed matter physics.
