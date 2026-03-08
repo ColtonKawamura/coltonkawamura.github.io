@@ -31,6 +31,7 @@ cv:
 
       - institution: Naval Postgraduate School
         location: Monterey, CA
+        url: https://www.nps.edu/
         area: Physics
         studyType: Masters, Phd
         start_date: 2018
@@ -41,6 +42,7 @@ cv:
 
       - institution: US Naval Academy
         location: Annapolis, MD
+        url: https://www.usna.edu/
         area: Physics, Chemistry
         studyType: Bachelors
         start_date: 2008
@@ -52,6 +54,7 @@ cv:
     Experience:
       - company: Duotech Services
         position: Program Engineer (Software)
+        url: https://www.duotechservices.com/
         location: Franklin, NC
         start_date: 2025
         end_date: "Present"
@@ -61,6 +64,7 @@ cv:
 
       - company: Naval Postgraduate School
         position: Research Faculty
+        url: https://nps.edu/faculty-profiles/-/cv/colton.kawamura1
         location: Monterey, CA
         start_date: 2024
         end_date: 2025
@@ -70,61 +74,77 @@ cv:
 
       - company: US Navy
         position: Special Operations Officer
+        url: https://www.navy.com/careers-benefits/careers/special-operations/explosive-ordnance-disposal-technician
         location: Various
         start_date: 2012
         end_date: 2024
-
-    Volunteer:
-      - company: 
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: Chief of Naval Operations (CNO) Award
         authors:
           - ""
-        date: ""
+        date: "2020"
         awarder: ""
         url: "" 
         summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
+      - title: Outstanding Thesis Award
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - ""
+        date: "2020"
+        awarder: ""
+        summary: ""
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+        Publications:
+  - title: "High-Energy-Density Material with Magnetically Modulated Ignition"
+    authors:
+      - "James E. Allen"
+      - "Sergey V. Zybin"
+      - "Sergey I. Morozov"
+      - "Owen T. O’Sullivan"
+      - "Colton Kawamura"
+      - "David E. Waxler"
+      - "Joseph P. Hooper"
+      - "William A. Goddard III"
+      - "Michael J. Zdilla"
+    publisher: "Journal of the American Chemical Society (ACS Publications)"
+    releaseDate: "2024"
+    summary: "Study reporting a high-energy-density material whose ignition can be magnetically modulated; characterizes material properties and ignition behavior."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+  - title: "Trauma exposure and functional movement characteristics of male tactical athletes"
+    authors:
+      - "Marcus K. Taylor"
+      - "Lisa M. Hernández"
+      - "Pinata H. Sessoms"
+      - "Colton Kawamura"
+      - "John J. Fraser"
+    publisher: "Journal of Athletic Training (National Athletic Trainers Association)"
+    releaseDate: "2020"
+    summary: "Investigation of the relationship between trauma exposure and functional movement characteristics in male tactical athletes."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+  - title: "Structure, Thermodynamics, and Energy Content of Perchlorate Containing Manganese-Clusters"
+    authors:
+      - "Colton Kawamura"
+    publisher: "Naval Postgraduate School (Monterey, CA)"
+    releaseDate: "2020"
+    summary: "PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters."
+
+  - title: "EOD warrior-athlete working group II: Forging the future of the EOD warrior-athlete training program"
+    authors:
+      - "Jeremiah Stump"
+      - "Brian Reitter"
+      - "Colton Kawamura"
+      - "Harry Basnight"
+      - "Dirk Palmer"
+      - "Charles Yohnke"
+      - "William Fancher"
+      - "Steve Fellman"
+      - "Michael Tripp"
+      - "Justin Mayo"
+      - "et al."
+    publisher: ""
+    releaseDate: "2017"
+    summary: "Working-group report outlining recommendations to develop and refine the EOD warrior-athlete training program."
 
     Skills:
       - name: Physics
@@ -133,11 +153,11 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
+      - name: English
         summary: "Native speaker"
 
-      - name: English
-        summary: "Fluent"
+      - name: Japanese
+        summary: "Conversational"
 
     Interests:
       - name: Physics
@@ -169,11 +189,3 @@ cv:
         start_date: 2018-01-01
         end_date: 2018-01-01
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
