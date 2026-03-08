@@ -29,4 +29,4 @@ latest_posts:
 
 I'm the father of three young kids that don't sleep and proud husband of a wonderful wife.
 
-In my spare time, I'm an engineer and [PhD candidate](https://www.uva.nl/en/profile/k/a/c.kawamura/c.kawamura.html?utm_source=chatgpt.com). My engineering work focuses on software that integrates into test and evaluationsystems. My academic work focuses on computational soft condensed matter physics.
+In my spare time, I'm an engineer and [PhD candidate](https://www.uva.nl/en/profile/k/a/c.kawamura/c.kawamura.html?utm_source=chatgpt.com). My engineering work focuses on software that integrates into test and evaluation systems. My academic work currently focuses on computational soft condensed matter physics.
