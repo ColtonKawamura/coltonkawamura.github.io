@@ -96,29 +96,49 @@ cv:
         summary: ""
 
     Publications:
-      - title: Zur Elektrodynamik beweg
+      - title: High-Energy-Density Material with Magnetically Modulated Ignition
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - James E. Allen
+          - Sergey V. Zybin
+          - Sergey I. Morozov
+          - Owen T. O’Sullivan
+          - Colton Kawamura
+          - David E. Waxler
+          - Joseph P. Hooper
+          - William A. Goddard III
+          - Michael J. Zdilla
+        publisher: Journal of the American Chemical Society (ACS Publications)
+        releaseDate: 2020-01-01
+        url: https://pubs.acs.org/doi/10.1021/jacs.3c10621 
+        summary: Study reporting a high-energy-density material whose ignition can be magnetically modulated; characterizes material properties and ignition behavior. 
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Trauma Exposure and Functional Movement Characteristics of Male Tactical Athletes 
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
+          - Marcus K. Taylor
+          - Lisa M. Hernández
+          - Pinata H. Sessoms
+          - Colton Kawamura
+          - John J. Fraser
+        publisher: Journal of Athletic Training
         releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7164567/ 
+        summary: Investigation of the relationship between trauma exposure and functional movement characteristics in male tactical athletes 
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Structure, Thermodynamics, and Energy Content of Perchlorate Containing Manganese-Clusters
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Colton Kawamura
+        publisher: Naval Postgraduate School
+        releaseDate: 2020
+        url: https://calhoun.nps.edu/server/api/core/bitstreams/96aa1205-e2dc-4383-952c-adfb04166a55/content
+        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters. 
+
+      - title: Structure, Thermodynamics, and Energy Content of Perchlorate Containing Manganese-Clusters
+        authors:
+          - Colton Kawamura
+        publisher: Naval Postgraduate School
+        releaseDate: 2020
+        url: https://calhoun.nps.edu/server/api/core/bitstreams/96aa1205-e2dc-4383-952c-adfb04166a55/content
+        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters. 
 
     Skills:
       - name: Physics
