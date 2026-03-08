@@ -17,12 +17,12 @@ cv:
   sections:
     Education:
       - institution: University of Amsterdam 
-        location: Amsterdam, Netherlands
+        location: Amsterdam, NL
         url: https://www.uva.nl/en
         area: Physics
         studyType: PhD
         start_date: 2025
-        end_date: 2035
+        end_date: "Present"
         score: ""
         courses: ""
         highlights:
@@ -30,7 +30,7 @@ cv:
           - Granular Materials.
 
       - institution: Naval Postgraduate School
-        location: Monterey, California, US
+        location: Monterey, CA
         area: Physics
         studyType: Masters, Phd
         start_date: 2018
@@ -40,7 +40,7 @@ cv:
           - Undersea Warfare.
 
       - institution: US Naval Academy
-        location: Annapolis, Maryland, US
+        location: Annapolis, MD
         area: Physics, Chemistry
         studyType: Bachelors
         start_date: 2008
@@ -52,7 +52,7 @@ cv:
     Experience:
       - company: Duotech Services
         position: Program Engineer (Software)
-        location: Franklin, North Carolina, US
+        location: Franklin, NC
         start_date: 2025
         end_date: "Present"
         summary: Creating sophisticated yet simple software solutions that integrate into test and evaluation systems.
@@ -61,7 +61,7 @@ cv:
 
       - company: Naval Postgraduate School
         position: Research Faculty
-        location: Monterey, California, US (Remote)
+        location: Monterey, CA
         start_date: 2024
         end_date: 2025
         highlights:
@@ -70,7 +70,7 @@ cv:
 
       - company: US Navy
         position: Special Operations Officer
-        location: Various Locations Worldwide
+        location: Various
         start_date: 2012
         end_date: 2024
 
@@ -86,12 +86,12 @@ cv:
           - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Chief of Naval Operations (CNO) Award
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+          - ""
+        date: ""
+        awarder: ""
+        url: "" 
         summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
       - title: Max Planck Medal
