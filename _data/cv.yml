@@ -4,7 +4,7 @@ cv:
   email: c.kawamura@uva.nl
   location: Franklin, NC
   image: ""
-  summary: A back-end focused software engineer and Physics PhD candidate that enjoys solving complex problems with computational methods.
+  summary: Using scientific and engineering computational techniques to design and deploy solutions to complex problems in software development, DevOps, and science.
 
   social_networks:
     - network: X
@@ -26,8 +26,8 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - Soft Condensed Matter.
-          - Granular Materials.
+          - Condensed Matter
+          - Soft Condensed Matter
 
       - institution: Naval Postgraduate School
         location: Monterey, CA
@@ -58,7 +58,7 @@ cv:
         location: Franklin, NC
         start_date: 2025
         end_date: "Present"
-        summary: Creating sophisticated yet simple software solutions that integrate into test and evaluation systems.
+        summary: System software engineer and DevOps Engineer.
         highlights:
           - C# .NET, Python, SQL, Node.js, and JavaScript development.
 
@@ -86,7 +86,7 @@ cv:
         date: "2020"
         awarder: ""
         url: "" 
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+        summary:
 
       - title: Outstanding Thesis Award
         authors:

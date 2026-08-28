@@ -1,6 +1,6 @@
 ---
 layout: post
-title: arXiv Preview - Scaling and Trade-offs in Multi-agent Autonomous Systems
+title: arXiv Preview of Scaling and Trade-offs in Multi-agent Autonomous Systems
 date: 2026-08-28
 description: A deep dive into designing autonomous drone swarms with dimensional analysis and scaling laws
 tags: multi-agent systems autonomous systems swarms research
