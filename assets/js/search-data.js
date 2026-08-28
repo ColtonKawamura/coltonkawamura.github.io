@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-arxiv-preview-scaling-and-trade-offs-in-multi-agent-autonomous-systems",
         
-          title: "",
+          title: "arXiv Preview - Scaling and Trade-offs in Multi-agent Autonomous Systems",
         
-        description: "",
+        description: "A deep dive into designing autonomous drone swarms with dimensional analysis and scaling laws",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-08-28-scaling-multi-agent-systems/";
+            window.location.href = "/blog/2026/scaling-multi-agent-systems/";
           
         },
       },{id: "post-a-post-with-plotly-js",
