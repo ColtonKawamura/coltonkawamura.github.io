@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Scaling and Trade-offs in Multi-agent Autonomous Systems
+title: arXiv Preview: Scaling and Trade-offs in Multi-agent Autonomous Systems
 date: 2026-08-28
 description: A deep dive into designing autonomous drone swarms with dimensional analysis and scaling laws
 tags: multi-agent systems autonomous systems swarms research
-categories: research papers
+categories: papers
 ---
 
-I recently came across an interesting arXiv paper that tackles one of the most challenging aspects of autonomous systems design: **how do we scale drone swarms effectively?** The paper, "[Scaling and Trade-offs in Multi-agent Autonomous Systems](https://arxiv.org/abs/2603.10743)" by Abram H. Clark et al., provides powerful insights into this complex problem using classical scientific techniques adapted for autonomous systems.
+My collaborators and I tackle one of the most challenging aspects of autonomous systems design: **how do we scale drone swarms effectively?** Our paper, "[Scaling and Trade-offs in Multi-agent Autonomous Systems](https://arxiv.org/abs/2603.10743)" provides powerful insights into this complex problem using classical scientific techniques adapted for autonomous systems.
 
 ## The Challenge of Autonomous Swarms
 
@@ -23,13 +23,13 @@ These factors interact in complex ways, making it nearly impossible to rely on i
 
 ### Dimensional Analysis & Scaling Laws
 
-The authors use a clever approach borrowed from physics: **dimensional analysis** and **scaling laws**. Instead of running countless individual simulations, they identify fundamental relationships between system parameters and performance metrics.
+We apply a physics based approach: dimensional analysis and scaling law. Instead of running countless individual simulations, we identify fundamental relationships between system parameters and performance metrics.
 
 This yields surprisingly simple mathematical relationships that can predict swarm performance—often more reliably than intuition.
 
 ### Three Critical Test Scenarios
 
-The research validates the approach using three realistic scenarios:
+Our research validates the approach using three realistic scenarios:
 
 1. **Swarm-on-swarm combat**: Direct competitive multi-agent scenarios
 2. **Cooperative area search with losses**: Realistic missions where agents can be disabled or lost
@@ -56,13 +56,6 @@ This research has immediate practical applications:
 
 ## The Bigger Picture
 
-The paper exemplifies how rigorous scientific methods from physics and mathematics can unlock complex engineering problems. Rather than treating autonomous systems as purely computational challenges, the authors show that classical tools like dimensional analysis are surprisingly powerful.
+Our paper shows how physics and mathematics can unlock complex engineering problems. Rather than treating autonomous systems as purely computational challenges, the we hope to show that classical tools like dimensional analysis are surprisingly powerful.
 
 This suggests that as autonomous systems grow more complex, bringing in cross-disciplinary scientific approaches—rather than just more computational power—might be key to managing the design space effectively.
-
-## Worth Reading
-
-If you work with multi-agent systems, autonomous vehicles, or swarm robotics, I'd highly recommend [reading the full paper](https://arxiv.org/abs/2603.10743). The combination of rigorous methodology, practical insights, and clear presentation makes it accessible even if you're not deeply specialized in the field.
-
-The authors provide a roadmap for tackling scalability challenges that feel intractable—and that's invaluable for anyone pushing the boundaries of autonomous systems.
-
