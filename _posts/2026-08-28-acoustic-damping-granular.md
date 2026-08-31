@@ -7,7 +7,7 @@ tags: acoustics granular materials physics
 categories: research papers
 ---
 
-[Read the full paper →](https://arxiv.org/abs/2608.28157)
+[Read the full paper preview →](https://arxiv.org/abs/2608.28157)
 
 ## The Problem
 

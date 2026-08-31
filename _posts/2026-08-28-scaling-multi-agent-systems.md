@@ -1,61 +1,46 @@
 ---
 layout: post
-title: arXiv Preview of Scaling and Trade-offs in Multi-agent Autonomous Systems
+title: arXiv preview of Scaling and Trade-offs in Multi-agent Autonomous Systems
 date: 2026-08-28
 description: A deep dive into designing autonomous drone swarms with dimensional analysis and scaling laws
 tags: multi-agent systems autonomous systems swarms research
 categories: papers
 ---
 
-My collaborators and I tackle one of the most challenging aspects of autonomous systems design: **how do we scale drone swarms effectively?** Our paper, "[Scaling and Trade-offs in Multi-agent Autonomous Systems](https://arxiv.org/abs/2603.10743)" provides powerful insights into this complex problem using classical scientific techniques adapted for autonomous systems.
+[Read the full paper preview →](https://arxiv.org/abs/2603.10743)
 
-## The Challenge of Autonomous Swarms
 
-When designing autonomous drone swarms, engineers face an overwhelming design space:
-- **Platform choices**: Which drones to use? What sensors? What computational capabilities?
-- **Algorithm selection**: How should agents coordinate? What decision-making framework?
-- **Operational parameters**: How many drones? How fast? What communication range?
-- **Mission requirements**: Search areas? Combat scenarios? Cooperative vs. adversarial?
+Designing a large autonomous drone swarm forces the engineer to choose across a very wide design space simultaneously: the **platform** (speed, sensing range, weapon range, mass), the **algorithmic layer** (cooperative control, path planning, target allocation), and the **numerical-strength parameters** (how many agents, how fast they move relative to one another, how quickly they are lost). Because these choices interact in nonlinear ways, there is no closed-form way to predict performance, and a brute-force search over all combinations is intractable.
 
-These factors interact in complex ways, making it nearly impossible to rely on intuition alone for design decisions.
+## Our Approach
 
-## Key Insights from the Paper
+My collaborators and I performed large-scale **agent-based simulations** in which each drone is an autonomous agent operating under the chosen platform and algorithm. We ran these simulations across three canonical operational scenarios:
 
-### Dimensional Analysis & Scaling Laws
+- **Swarm-on-swarm battle** — two opposing swarms engaging one another,
+- **Cooperative area search with attrition** — a single swarm searching a region while agents are progressively lost, and
+- **Pursuit of scattering targets** — a swarm chasing targets that move to evade it.
 
-We apply a physics based approach: dimensional analysis and scaling law. Instead of running countless individual simulations, we identify fundamental relationships between system parameters and performance metrics.
+For each scenario we swept the key design parameters over many orders of magnitude.
 
-This yields surprisingly simple mathematical relationships that can predict swarm performance—often more reliably than intuition.
+## Key Findings
 
-### Three Critical Test Scenarios
+### Simple but counterintuitive scaling laws
 
-Our research validates the approach using three realistic scenarios:
+By applying **dimensional analysis** and **data-scaling**, we collapsed the high-dimensional performance data onto low-dimensional **scaling functions**. These functions are mathematically compact, yet their shape is *counterintuitive* and, as far as we can tell, cannot be predicted *a priori* from first principles.
 
-1. **Swarm-on-swarm combat**: Direct competitive multi-agent scenarios
-2. **Cooperative area search with losses**: Realistic missions where agents can be disabled or lost
-3. **Pursuing scattering targets**: Dynamic scenarios where the goal isn't stationary
+### Success–failure boundaries and "effective swarm size"
 
-### Uncovering Trade-offs and Boundaries
+The scaling laws expose sharp **success–failure boundaries** in parameter space. At certain **break points**, performance changes abruptly. We showed that these break points can be re-expressed as a single quantity we call the **effective swarm size** — a number that folds together agent count, platform parameters, and scenario geometry into one governing variable.
 
-The scaling laws reveal:
-- **Sharp transition points** ("break points") where small parameter changes dramatically shift success/failure
-- **Trade-off relationships**: How increasing agent count can compensate for reduced platform capabilities
-- **Speed-range-survivability balances**: Classical constraints in swarm design
+### Trade-off quantification
 
-### Impact of Path Planning
+Because the scaling functions are explicit, they let us **quantify trade-offs** directly: for a fixed mission budget, how does swapping agent count for greater velocity, sensing range, weapon range, or a lower attrition rate shift the probability of mission success? These trade-offs can be read off a single curve rather than requiring a new simulation.
 
-An interesting finding: incorporating **optimal path planning** into swarms can substantially shift performance boundaries—sometimes enabling success where purely reactive approaches fail.
+### Path-planning loop
 
-## Why This Matters
+We further demonstrated that embedding an **optimal path-planning loop** inside the swarm algorithm *qualitatively improves* the governing scaling laws, shifting the effective operating regime to more favourable regions of parameter space.
 
-This research has immediate practical applications:
+## What We Propose
 
-**For designers**: Instead of exhaustive simulation or guesswork, you can use scaling laws to quickly size a swarm for a given mission
-**For budget planning**: Trade-off analysis shows where to invest—more expensive drones with better capabilities vs. larger numbers of cheaper units
-**For mission planning**: Understanding success-failure boundaries helps determine mission feasibility before deployment
+The methods we developed are **scenario-agnostic and highly flexible**. Taken together, they provide a route to **rapid, budget-aware sizing and algorithm selection** for large autonomous swarms: instead of simulating thousands of design variants, the designer can consult a small set of scaling functions that already encode the dominant physics of the problem and flag where the most critical performance transitions lie.
 
-## The Bigger Picture
-
-Our paper shows how physics and mathematics can unlock complex engineering problems. Rather than treating autonomous systems as purely computational challenges, the we hope to show that classical tools like dimensional analysis are surprisingly powerful.
-
-This suggests that as autonomous systems grow more complex, bringing in cross-disciplinary scientific approaches—rather than just more computational power—might be key to managing the design space effectively.
