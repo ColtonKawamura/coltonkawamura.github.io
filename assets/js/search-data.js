@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/scaling-multi-agent-systems/";
           
         },
+      },{id: "post-how-sound-dies-in-granular-materials",
+        
+          title: "How Sound Dies in Granular Materials",
+        
+        description: "Proximity to jamming explains acoustic damping in granular media",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/acoustic-damping-granular/";
+          
+        },
       },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
