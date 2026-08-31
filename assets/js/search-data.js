@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-arxiv-preview-of-scaling-and-trade-offs-in-multi-agent-autonomous-systems",
+        },{id: "post-arxiv-preview-of-proximity-to-jamming-governs-acoustic-attenuation-in-damped-packings",
+        
+          title: "arXiv preview of Proximity to Jamming Governs Acoustic Attenuation in Damped Packings",
+        
+        description: "Proximity to jamming explains acoustic damping in granular media",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/acoustic-damping-granular/";
+          
+        },
+      },{id: "post-arxiv-preview-of-scaling-and-trade-offs-in-multi-agent-autonomous-systems",
         
           title: "arXiv Preview of Scaling and Trade-offs in Multi-agent Autonomous Systems",
         
@@ -39,17 +50,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/scaling-multi-agent-systems/";
-          
-        },
-      },{id: "post-how-sound-dies-in-granular-materials",
-        
-          title: "How Sound Dies in Granular Materials",
-        
-        description: "Proximity to jamming explains acoustic damping in granular media",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/acoustic-damping-granular/";
           
         },
       },{id: "post-a-post-with-image-galleries",
