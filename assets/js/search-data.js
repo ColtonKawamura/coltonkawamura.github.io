@@ -43,7 +43,7 @@ ninja.data = [{
         },
       },{id: "post-arxiv-preview-of-scaling-and-trade-offs-in-multi-agent-autonomous-systems",
         
-          title: "arXiv Preview of Scaling and Trade-offs in Multi-agent Autonomous Systems",
+          title: "arXiv preview of Scaling and Trade-offs in Multi-agent Autonomous Systems",
         
         description: "A deep dive into designing autonomous drone swarms with dimensional analysis and scaling laws",
         section: "Posts",
