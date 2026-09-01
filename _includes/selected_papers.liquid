@@ -1,3 +1,6 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  {% comment %} {% bibliography --group_by none --query @*[selected=true]* %} {% endcomment %}
+  {% include bib_search.liquid %}
+
+  {% bibliography %}
 </div>
