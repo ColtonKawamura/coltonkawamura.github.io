@@ -424,9 +424,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-proximity-to-jamming-governs-acoustic-attenuation-in-damped-packings",
+          title: 'Proximity to Jamming Governs Acoustic Attenuation in Damped Packings',
+          description: "A grain-scale &quot;Jammed-Network Scattering&quot; framework that explains the long-standing linear frequency dependence of acoustic attenuation in fluid-saturated granular media, using particle-based simulations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
