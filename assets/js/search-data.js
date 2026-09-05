@@ -480,6 +480,13 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/ColtonKawamura", "_blank");
+        },
+      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
