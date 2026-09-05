@@ -32,8 +32,13 @@ I'm the father of three young kids that don't sleep and proud husband of a wonde
 In my spare time, I'm an engineer and [PhD candidate](https://www.uva.nl/en/profile/k/a/c.kawamura/c.kawamura.html?utm_source=chatgpt.com). My engineering work focuses on software that integrates into test and evaluation systems. My academic work currently focuses on computational soft condensed matter physics.
 
 
+
+
 <div class="social-links" style="margin-top: 1.5rem;">
-        <a href="https://scholar.google.com/citations?user=MWmZoaAAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
-            <i class="ai ai-google-scholar" style="font-size: 1.4rem;"></i>
-        </a>
+       <a href="https://github.com/ColtonKawamura" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+           <i class="fa-brands fa-github" style="font-size: 1.4rem;"></i>
+       </a>
+       <a href="https://scholar.google.com/citations?user=MWmZoaAAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
+           <i class="ai ai-google-scholar" style="font-size: 1.4rem;"></i>
+       </a>
 </div>
