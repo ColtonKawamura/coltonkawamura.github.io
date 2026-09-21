@@ -130,6 +130,14 @@ jobs:
           path: playwright-report
           if-no-files-found: ignore
 
+      - name: Upload failure screenshots 📷
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-failures
+          path: test-results/
+          if-no-files-found: ignore
+
       - name: Upload Jekyll logs 📄
         if: always()
         uses: actions/upload-artifact@v4
