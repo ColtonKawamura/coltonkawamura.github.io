@@ -58,5 +58,10 @@ Nothing on the page has been benchmarked on the hardware by us: benchmark scores
 
 Standard-library Python only, no dependencies. The data is one record, one file (`data/models/<id>.py`, `data/engines/<id>.py`, ...), so two people adding two different models never touch the same file. `tracker/validate.py` machine-checks every record, `tracker/build.py` renders the single-file page, and a twice-daily workflow re-polls the tracked issue states from GitHub and deploys the change.
 
-- **Live page:** <a href="https://coltonkawamura.github.io/apple-llm-performance/">coltonkawamura.github.io/apple-llm-performance</a>
-- **Repository:** <a href="https://github.com/ColtonKawamura/apple-llm-performance">github.com/ColtonKawamura/apple-llm-performance</a>
+## Fork and lineage
+
+This project is a fork of [dreamingwell/apple-llm-performance](https://github.com/dreamingwell/apple-llm-performance), the upstream that first assembled the model, engine and use-case records. It is kept in sync with upstream and is being slowly adapted to its own purpose as it diverges. The canonical home is the Pages site served from this repository; the page's Open Graph and canonical tags, and the "Open source" link in its header, point here rather than at the upstream author's Pages site.
+
+- **Live page (canonical):** <a href="https://coltonkawamura.github.io/apple-llm-performance/">coltonkawamura.github.io/apple-llm-performance</a>
+- **Fork repository:** <a href="https://github.com/ColtonKawamura/apple-llm-performance">github.com/ColtonKawamura/apple-llm-performance</a>
+- **Upstream:** <a href="https://github.com/dreamingwell/apple-llm-performance">github.com/dreamingwell/apple-llm-performance</a>
