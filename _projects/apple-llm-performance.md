@@ -6,6 +6,7 @@ img: assets/img/apple-llm-performance/og-card.jpg
 category: work
 importance: 1
 date: 2026-09-21
+redirect: https://coltonkawamura.github.io/apple-llm-performance/
 github: https://github.com/ColtonKawamura/apple-llm-performance
 related_posts: true
 ---
