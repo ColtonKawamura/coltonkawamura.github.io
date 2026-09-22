@@ -157,9 +157,18 @@ async function compareWithBaseline(context, currentPage, route, themeSetting, op
   if (!baselineURL) {
     return null;
   }
-  const normalizedRoute = route.replace(/^\//, "");
+  // `route` is the logical path, origin-root-relative (e.g. "/", "/repositories/"),
+  // identical on both sides. The baseline is the production origin (no subpath); the
+  // candidate is served under the /al-folio subpath (Jekyll --baseurl /al-folio), so
+  // each side needs its own absolute target. Building both as absolute URLs sidesteps
+  // Playwright's baseURL relative-resolution: the config baseURL has no trailing
+  // slash, so a relative "repositories/" resolves against the origin root and 404s the
+  // candidate — the gate then diffed a real production page against a 404 page.
+  const logicalRoute = route.startsWith("/") ? route : `/${route}`;
   const normalizedBaselineRoot = baselineURL.endsWith("/") ? baselineURL : `${baselineURL}/`;
-  const baselineTarget = new URL(normalizedRoute, normalizedBaselineRoot).toString();
+  const baselineTarget = new URL(logicalRoute, normalizedBaselineRoot).toString();
+  // Single source of truth for the candidate base: the config's own use.baseURL.
+  const candidateTarget = `${require("./playwright.config").use.baseURL}${logicalRoute}`;
 
   const baselinePage = await context.newPage();
   await preparePage(baselinePage, themeSetting);
@@ -168,7 +177,7 @@ async function compareWithBaseline(context, currentPage, route, themeSetting, op
   await baselinePage.waitForTimeout(500);
   const baselineBuffer = await captureParityScreenshot(baselinePage);
 
-  await currentPage.goto(normalizedRoute, { waitUntil: "networkidle" });
+  await currentPage.goto(candidateTarget, { waitUntil: "networkidle" });
   await stabilizeVisuals(currentPage);
   await currentPage.waitForTimeout(500);
   const currentBuffer = await captureParityScreenshot(currentPage);

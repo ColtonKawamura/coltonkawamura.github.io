@@ -80,9 +80,12 @@ jobs:
       # BASELINE_URL must be the production origin — the site's own `url` in
       # _config.yml — with no /al-folio subpath. The candidate is served under
       # /al-folio (Jekyll build with baseurl) while production is deployed at
-      # the origin root, and the spec normalizes each route against the
-      # origin. Pointing at a /al-folio subpath would silently diff the wrong
-      # routes.
+      # the origin root. compareWithBaseline (test/visual/helpers.js) takes one
+      # logical origin-root-relative path per route and resolves it to an
+      # absolute URL per side: the baseline against the origin, the candidate
+      # against the /al-folio subpath from the Playwright config's own
+      # use.baseURL. Pointing BASELINE_URL at a /al-folio subpath would
+      # silently diff the wrong routes.
       - name: Run visual parity checks 👀
         env:
           BASELINE_URL: https://coltonkawamura.github.io

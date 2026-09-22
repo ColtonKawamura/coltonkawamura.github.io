@@ -16,11 +16,17 @@ const { preparePage, compareWithBaseline } = require("./helpers");
 // local worktree served under /al-folio, and mixing the two conventions
 // here would silently diff the wrong routes.
 const routes = [
+  // `path` is the logical path, origin-root-relative and identical on both sides.
+  // compareWithBaseline derives each side's absolute URL from it: the baseline
+  // under the production origin, the candidate under the /al-folio subpath.
+  // `live` marks routes that exist on the production baseline; flipping a route
+  // to live: false excludes it from parity when it has no production counterpart.
   { path: "/", id: "home", live: true },
-  // Not deployed: the page hides the publications tab and its entries carry
-  // no abstracts, so there is no production counterpart to diff against.
-  { path: "/projects/", id: "projects", live: false },
-  { path: "/publications/", id: "publications", live: false },
+  { path: "/projects/", id: "projects", live: true },
+  // Deployed (200, styled) but not linked in the production nav; its entries
+  // carry no abstracts, so it also feeds the Abs-toggle skip in
+  // interactions.spec.js.
+  { path: "/publications/", id: "publications", live: true },
   { path: "/repositories/", id: "repositories", live: true },
 ];
 
