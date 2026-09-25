@@ -35,7 +35,4 @@ In my spare time, I'm an engineer and [PhD candidate](https://www.uva.nl/en/prof
        <a href="https://github.com/ColtonKawamura" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
            <i class="fa-brands fa-github" style="font-size: 1.4rem;"></i>
        </a>
-       <a href="https://scholar.google.com/citations?user=MWmZoaAAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
-           <i class="ai ai-google-scholar" style="font-size: 1.4rem;"></i>
-       </a>
 </div>

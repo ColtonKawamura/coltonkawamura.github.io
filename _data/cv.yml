@@ -3,12 +3,12 @@ cv:
   headline: Systems Software Engineer / PhD Candidate
   email: c.kawamura@uva.nl
   location: Franklin, NC
-  website: https://coltonkowaura.github.io
+  website: https://coltonkawamura.github.io
   social_networks:
     - network: GitHub
-      username: coltonkowaura
+      username: coltonkawamura
     - network: LinkedIn
-      username: coltonkowaura
+      username: coltonkawamura
   sections:
     Summary:
       - Using scientific and engineering computational techniques to design and deploy solutions to complex problems in software development, DevOps, and science.
