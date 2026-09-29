@@ -30,4 +30,3 @@ The maximum appears when the acoustic round-trip time through the stack matches 
 ## What Makes the Stack a Trampoline?
 
 Bar-impact theory predicts only a weak recovery and does not explain why the surrounding gas matters. The recovery is large for paper stacks, but the maximum disappears when the stack is evacuated. This shows that the **air trapped between the sheets**, rather than the paper alone, gives the stack its trampoline-like behavior.
-
