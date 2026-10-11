@@ -3,7 +3,7 @@ layout: page
 title: "Who's still in?"
 description: Self-reported serving status of U.S. Naval Academy classmates — reported still in, out, and unreported shares of each class's documented commissions, plus pay grade, community, and post-service industry breakdowns.
 img:
-category: work
+category: academic
 importance: 1
 date: 2026-10-04
 redirect: https://coltonkawamura.github.io/whos-still-in/

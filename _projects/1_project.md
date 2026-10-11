@@ -3,7 +3,7 @@ layout: page
 title: "Proximity to Jamming Governs Acoustic Attenuation in Damped Packings"
 description: A grain-scale "Jammed-Network Scattering" framework that explains the long-standing linear frequency dependence of acoustic attenuation in fluid-saturated granular media, using particle-based simulations.
 img: assets/img/jns/experimentalData.png
-category: work
+category: academic
 importance: 1
 date: 2026-08-31
 github: https://github.com/ColtonKawamura/jammed-network-scattering
