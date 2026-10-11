@@ -3,7 +3,7 @@ layout: page
 title: "Apple LLM Performance Tracker"
 description: Which open-weight models actually run well on which Apple silicon, and through which engine — per CPU, memory and machine count, from M1 to M5 Ultra.
 img: assets/img/apple-llm-performance/og-card.jpg
-category: academic
+category: personal
 importance: 1
 date: 2026-09-21
 redirect: https://coltonkawamura.github.io/apple-llm-performance/
