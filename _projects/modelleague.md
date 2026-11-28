@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "ModelLeague"
-description: Fantasy football, but for large language models — draft real AI models across a frontier league and an open-weights league, and each week your team's score is how those models are actually doing: benchmarks, prices, and news.
+description: "Fantasy football, but for large language models — draft real AI models across a frontier league and an open-weights league, and each week your team's score is how those models are actually doing: benchmarks, prices, and news."
 img:
 category: personal
 importance: 1
